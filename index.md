@@ -1,12 +1,12 @@
 ---
 layout: home
-title: SC Allemang
-button_text: About Me
+title: Rhineland
+button_text: About Us
 class: home
 ---
 
 # Hello, World!
 
-## My Name is Sam [Allemang](http://en.wikipedia.org/wiki/Alemanni)
+## Rhineland is a web design studio operated in Toronto by SC Allemang.
 
-I do web design in Toronto and am helping [Andray Domise](http://andraydomise.ca) build the [Techsdale](http://techsdale.ca) project and volunteer for [CoderDojoTO](http://coderdojoto.com). I'm available for web-related work through [Cloud Surfing Media](http://cloudsurfingmedia.com).
+Extensive experience with WordPress and HTML/CSS.
