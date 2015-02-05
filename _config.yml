@@ -1,6 +1,6 @@
 # Site settings
-title: SC Allemang
-email: sca@scallemang.ca
+title: Rhineland
+email: info@rhineland.co
 description: > # this means to ignore newlines until "baseurl:"
   Hello, world! My Name is Sam Allemang. I do web design in Toronto and am helping Andray Domise build the Techsdale project and volunteer for CoderDojoTO. I'm available for web-related work through Cloud Surfing Media.
 baseurl: "" # the subpath of your site, e.g. /blog/
