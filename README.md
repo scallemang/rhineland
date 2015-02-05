@@ -1,2 +1,2 @@
-# SC Allemang.ca
-Personal site built with Jekyll
+# Rhineland.co
+Professional site built with Jekyll
