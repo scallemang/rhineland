@@ -1,2 +1,2 @@
-# rhineland
-The Rhineland website (rhineland.co // rhineland.io)
+# SC Allemang.ca
+Personal site built with Jekyll

@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+  <h1 class="page-heading">Blog</h1>
+  <div class="row">
+    <div class="col-md-4 post-title">
+      <h2>Categories</h2>
+      <ul class="list-inline">
+        {% for category in site.categories %}
+          <li><a href="/blog/tags/{{category | first}}/"><small>{{ category | first }}</small></a></li>
+        {% endfor %}
+      </ul>
+      <h2>Tags</h2>
+      <ul class="list-inline">
+        {% for tag in site.tags %}
+          <li><a href="/blog/tags/{{tag | first}}/"><small>{{ tag | first }}</small></a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-8 main-content blog-feed">
+      <div class="row">
+        {% for post in site.tags.[page.filter_tag] %}
+          <div class="col-sm-4">
+              <img src="/img/reduced-size/{{ post.image }}" alt="" class="img-responsive">
+              <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+              <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales hendrerit erat, ac aliquet lacus viverra imperdiet.</small></p>
+              <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+          </div>
+        {% endfor %}
+      </div>
+      <hr>
+      <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+  </div>
